@@ -1,6 +1,5 @@
 """See how slow failure creation is"""
 
-
 import random
 
 from twisted.python import failure
@@ -85,3 +84,7 @@ for i in O:
 
 # for i in O:
 #     print('string failing', i, timeit(fail_str, 1, i))
+
+
+# for i in O:
+#     timeit(fail, 1, i)
